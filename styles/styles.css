@@ -49,6 +49,7 @@
 .EB136-thrd-banner-container {
   display: flex;
   margin-top: 120px;
+  margin-bottom: 120px;
   gap: 99px;
 }
 
@@ -191,8 +192,7 @@
   letter-spacing: 0px;
   text-align: center;
   color: #4c3289;
-  margin-top: 57px;
-  margin-bottom: 31px;
+  margin: 57px auto 31px auto;
 }
 
 .EB136-triple-banner-txt {
@@ -203,7 +203,8 @@
   letter-spacing: 0px;
   text-align: center;
   color: #2f2f2f;
-  margin: 0px;
+  margin: 0px auto;
+  max-width: 422px;
 }
 
 .EB136-seguranca {
